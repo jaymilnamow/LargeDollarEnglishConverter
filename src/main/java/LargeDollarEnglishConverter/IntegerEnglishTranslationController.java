@@ -1,5 +1,7 @@
 package LargeDollarEnglishConverter;
 
+import static javafx.scene.input.KeyCode.M;
+
 /**
  * Created by jaymilnamow on 6/11/16.
  */
@@ -10,8 +12,6 @@ public class IntegerEnglishTranslationController {
         ConvertToCurrencyFormat convertToCurrencyFormat = new ConvertToCurrencyFormat();
 
         convertToCurrencyFormat.reformatNumberToUSD(input);
-
-
 
     }
 

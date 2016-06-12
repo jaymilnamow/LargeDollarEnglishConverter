@@ -18,10 +18,10 @@ public class Main {
         String s;
 
         while ((s = in.readLine()) != null) {
-//            IntegerEnglishTranslationController integerEnglishTranslationController = new IntegerEnglishTranslationController();
-//            integerEnglishTranslationController.Run(s);
-            ConvertToCurrencyFormat convertToCurrencyFormat = new ConvertToCurrencyFormat();
-            convertToCurrencyFormat.reformatNumberToUSD(s);
+
+            IntegerEnglishTranslationController integerEnglishTranslationController = new IntegerEnglishTranslationController();
+            integerEnglishTranslationController.Run(s);
+
             System.out.println(s);
         }
     }
